@@ -12,11 +12,11 @@ Run the following command<br>
 ```Bash
 python dump.py -pid <PID> -saddr <start_addr> -eaddr <end_addr>
 ```
-* <PID>: a specific process's pid
-* <start_addr>: start address of dumped memory
-* <end_addr>: end address of dumped memory
-* The address of dumped memory's last byte is actually <end_addr>-1
-* The size of dumped memory is <end_addr>-<start_addr>
+* &lt;PID&gt;: a specific process's pid
+* &lt;start_addr&gt;: start address of dumped memory
+* &lt;end_addr&gt;: end address of dumped memory
+* The address of dumped memory's last byte is actually &lt;end_addr&gt;-1
+* The size of dumped memory is &lt;end_addr&gt;-&lt;start_addr&gt;
 * The dumped memory will be saved to current work directory
 Example<br>
 ```Bash
