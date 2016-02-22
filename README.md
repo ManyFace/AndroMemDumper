@@ -18,6 +18,7 @@ python dump.py -pid <PID> -saddr <start_addr> -eaddr <end_addr>
 * The address of dumped memory's last byte is actually &lt;end_addr&gt;-1
 * The size of dumped memory is &lt;end_addr&gt;-&lt;start_addr&gt;
 * The dumped memory will be saved to current work directory
+<br>
 Example<br>
 ```Bash
 python dump.py -pid 1317 -saddr b43ed000 -eaddr b43ef000
