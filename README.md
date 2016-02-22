@@ -8,7 +8,7 @@ python2.7
 Tested on Ubuntu12.04_64 and window7_64
 
 ##Usage
-Run the following command<br>
+**Run the following command:**<br>
 ```Bash
 python dump.py -pid <PID> -saddr <start_addr> -eaddr <end_addr>
 ```
@@ -19,7 +19,8 @@ python dump.py -pid <PID> -saddr <start_addr> -eaddr <end_addr>
 * The size of dumped memory is &lt;end_addr&gt;-&lt;start_addr&gt;
 * The dumped memory will be saved to current work directory
 <br>
-Example<br>
+<br>
+**Example:**<br>
 ```Bash
 python dump.py -pid 1317 -saddr b43ed000 -eaddr b43ef000
 ```
